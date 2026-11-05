@@ -2,7 +2,7 @@ with
     source_data as(
 
     select *
-    from {{ source('raw_data', 'customers') }}
+    from {{ source('raw_data', 'payments') }}
 
     ),
 
@@ -16,9 +16,9 @@ renamed as (
         when lower(trim(payment_method)) in ('paypal', 'venmo') then 'digital_wallet'
         when lower(trim(payment_method)) = 'gift_card' then 'gift_card'
         else 'other'
-    end as payment_method
-    ammount::decimal(10, 2) as payment_amount,
-    lowert(trim(status)) as payment_status
+    end as payment_method,
+    amount::decimal(10, 2) as payment_amount,
+    lower(trim(status)) as payment_status
     from source_data
     )   
 

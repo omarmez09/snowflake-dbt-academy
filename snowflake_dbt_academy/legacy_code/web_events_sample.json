@@ -1,0 +1,16 @@
+{
+  "_nota": "Este json esta almacenado en Snowflake en la columna VARIANT PAYLOAD",
+  "device": {
+    "browser": "Chrome",
+    "os": "Windows",
+    "type": "desktop"
+  },
+  "event_type": "page_view",
+  "page": "/products/101",
+  "user_id": 1,
+  "utm": {
+    "campaign": "summer_sale",
+    "medium": "cpc",
+    "source": "google"
+  }
+}
