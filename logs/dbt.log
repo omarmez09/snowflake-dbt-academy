@@ -100,3 +100,15 @@ Happy modeling!
 [0m13:18:53.470182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A34026EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A34239A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A34232690>]}
 [0m13:18:53.471078 [debug] [MainThread]: Flushing usage events
 [0m13:18:54.508372 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:36:25.477341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297B8AC5BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297B66A8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297BB43B9D0>]}
+
+
+============================== 13:36:25.486097 | bae7f98e-2ee2-465e-8da8-1b5d96914c64 ==============================
+[0m13:36:25.486097 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m13:36:25.487394 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\omeza\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m13:36:25.487949 [debug] [MainThread]: Tracking: tracking
+[0m13:38:09.543444 [info ] [MainThread]: A project called snowflake_dbt_academy already exists here.
+[0m13:38:09.545472 [debug] [MainThread]: Command `dbt init` succeeded at 13:38:09.545205 after 104.37 seconds
+[0m13:38:09.546241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297BB246EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297BB506210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297BB452690>]}
+[0m13:38:09.547017 [debug] [MainThread]: Flushing usage events
+[0m13:38:10.220556 [debug] [MainThread]: An error was encountered while trying to flush usage events
